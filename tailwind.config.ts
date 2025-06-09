@@ -10,7 +10,7 @@ export default {
     extend: {
       colors: {
         "primario": "#1A1347",
-        "secundario": "#b88fd2",
+        "secundario": "#8c5ca2",
         "auxiliar": "#A486B0",
         "recuadros": "#e4e4e4",
       },
