@@ -173,13 +173,15 @@ export default function Home() {
               sizes="100vw"
             />
           </div>
-          <div className="flex flex-col items-center justify-center text-gray-800 p-4">
-            <h2 className="text-2xl p-6 font-bold">Jose Saul Aviña Quintero</h2>
-            <p className="text-justify">Hi! 👋, I am a Computer Engineer with experience in NextJS, TypeScript, React, among other things.</p>
-            <p className="text-justify">I also have skills programming in languages like C++, Python, and JavaScript. Additionally, I have worked with databases using PostgreSQL 🐘, MySQL, and a bit with Firebase 🔥.</p>
-            <p className="text-justify">I enjoy working with databases 🗃️, creating websites 🌐, and I have a future plan to program my own video game 🎮. I have faced several challenges along my learning journey, but I always try to stay updated and keep studying to achieve my goals.</p>
-            <p className="text-justify">Currently, I am still studying my Computer Engineering degree 🎓 at CUCEI, where I continue learning from my mistakes and improving every day.</p>
-          </div>
+          <section id="about" className="py-20 bg-gray-100">
+            <div className="flex flex-col items-center justify-center text-gray-800 p-4">
+              <h2 className="text-2xl p-6 font-bold">Jose Saul Aviña Quintero</h2>
+              <p className="text-justify">Hi! 👋, I am a Computer Engineer with experience in NextJS, TypeScript, React, among other things.</p>
+              <p className="text-justify">I also have skills programming in languages like C++, Python, and JavaScript. Additionally, I have worked with databases using PostgreSQL 🐘, MySQL, and a bit with Firebase 🔥.</p>
+              <p className="text-justify">I enjoy working with databases 🗃️, creating websites 🌐, and I have a future plan to program my own video game 🎮. I have faced several challenges along my learning journey, but I always try to stay updated and keep studying to achieve my goals.</p>
+              <p className="text-justify">Currently, I am still studying my Computer Engineering degree 🎓 at CUCEI, where I continue learning from my mistakes and improving every day.</p>
+            </div>
+          </section>
         </div>
       </div> 
 

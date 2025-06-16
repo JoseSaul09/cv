@@ -3,7 +3,7 @@ import type { Config } from "tailwindcss";
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -13,6 +13,8 @@ export default {
         "secundario": "#8c5ca2",
         "auxiliar": "#A486B0",
         "recuadros": "#e4e4e4",
+        "texto": "#c6a7e3",
+        "header-color": "#1E1B24",
       },
     },
   },
