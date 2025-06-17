@@ -14,7 +14,7 @@ export default function Home() {
             className="object-cover"
           />
         </div>
-        <h1 className="text-3xl font-bold text-gray-800">Hola, soy Saúl Aviña</h1>
+        <h1 className="text-3xl font-bold text-gray-800">Hi, I'm Saúl Aviña</h1>
         <p className="text-gray-600 mt-2">
           Computer engineer, web developer, and video game enthusiast.
         </p>
@@ -163,7 +163,7 @@ export default function Home() {
       {/* Acerca de mi */}
       <div className="max-w-screen-lg w-full bg-secundario rounded-2xl shadow-2xl p-8 border-2 border-primario">
         <h1 className="flex items-center justify-center text-3xl font-bold text-gray-800 items-center p-2">About Me</h1>
-        <div className="grid grid-cols-2 gap-4 bg-recuadros rounded-2xl shadow-2xl p-8">
+        <div className="grid grid-cols-2 gap-4 bg-header-color rounded-2xl shadow-2xl p-8">
           <div className="flex items-center justify-center font-bold text-primario p-4 relative w-full h-full">
             <Image
               src="/img/Perfil.jpg"
@@ -186,35 +186,373 @@ export default function Home() {
       </div> 
 
       {/* Lenguajes y tecnologias que uso */}
-      <div className="max-w-screen-xl w-full bg-secundario rounded-2xl shadow-2xl p-8 border-2 border-primario">
+      <div className="max-w-screen-lg w-full bg-secundario rounded-2xl shadow-2xl p-8 border-2 border-primario">
         <div>
-          <h1 className="flex items-center justify-center text-3xl font-bold text-gray-800 items-cente p-10">Languages / Technologies</h1>
+          <h1 className="flex justify-center text-3xl font-bold text-gray-800 p-10">
+            Languages / Technologies
+          </h1>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-primario font-bold">
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
-            <div className="flex items-center justify-center rounded-2xl shadow-xl p-8 text-center bg-recuadros">dsd</div>           
+            {/* Python */}            
+            <div className="flex flex-col gap-6 justify-center items-center">
+              <label className="text-gray-400 cursor-pointer">
+                <input type="hover" className="hidden peer" />
+                <div
+                  className="group flex flex-col gap-4 w-32 h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-2xl p-4 shadow-xl border-2 border-transparent transition-all duration-300 ease-in-out hover:border-yellow-200 hover:shadow-yellow-200/20 peer-checked:border-yellow-200 peer-checked:from-yellow-200/50 peer-checked:to-gray-900 peer-checked:translate-y-[-0.5rem]"
+                >
+                  <div className="relative">
+                    <div
+                      className="w-12 h-12 mx-auto bg-yellow-400/20 rounded-lg border-2 border-yellow-400/40 group-hover:border-yellow-400 group-hover:bg-yellow-400/30 peer-checked:border-yellow-400 peer-checked:bg-yellow-400/30 transition-all duration-300"
+                    >
+                      <img src="/icons/python.svg" alt="Python" className="w-12 h-12 mb-2" />
+                      <div className="flex flex-col gap-1 p-2">
                         
-          </div>        
+                      </div>
+                    </div>
+
+                    <div
+                      className="absolute top-0 right-6 w-3 h-3 rounded-full bg-gray-600 group-hover:bg-red-400 group-hover:animate-pulse peer-checked:bg-indigo-400 peer-checked:animate-pulse transition-all duration-300"
+                    ></div>
+                  </div>
+
+                  <div className="text-center">
+                    <p
+                      className="font-medium text-sm group-hover:text-yellow-200 peer-checked:text-yellow-200 transition-colors duration-300"
+                    >
+                      Python
+                    </p>
+                  </div>
+
+                  <div
+                    className="h-1 w-0 bg-yellow-200 rounded-full mx-auto group-hover:w-full peer-checked:w-full transition-all duration-300"
+                  ></div>
+
+                </div>
+              </label>
+            </div>
+
+            {/* React */}            
+            <div className="flex flex-col gap-6 justify-center items-center">
+              <label className="text-gray-400 cursor-pointer">
+                <input type="hover" className="hidden peer" />
+                <div
+                  className="group flex flex-col gap-4 w-32 h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-2xl p-4 shadow-xl border-2 border-transparent transition-all duration-300 ease-in-out hover:border-cyan-500 hover:shadow-cyan-500/20 peer-checked:border-cyan-500 peer-checked:from-cyan-900/50 peer-checked:to-gray-900 peer-checked:translate-y-[-0.5rem]"
+                >
+                  <div className="relative">
+                    <div
+                      className="w-12 h-12 mx-auto bg-cyan-500/20 rounded-lg border-2 border-cyan-500/40 group-hover:border-cyan-400 group-hover:bg-cyan-500/30 peer-checked:border-cyan-400 peer-checked:bg-cyan-500/30 transition-all duration-300"
+                    >
+                      <img src="/icons/react.svg" alt="React" className="w-12 h-12 mb-2" />
+                      <div className="flex flex-col gap-1 p-2">
+                        
+                      </div>
+                    </div>
+
+                    <div
+                      className="absolute top-0 right-6 w-3 h-3 rounded-full bg-gray-600 group-hover:bg-red-400 group-hover:animate-pulse peer-checked:bg-indigo-400 peer-checked:animate-pulse transition-all duration-300"
+                    ></div>
+                  </div>
+
+                  <div className="text-center">
+                    <p
+                      className="font-medium text-sm group-hover:text-cyan-400 peer-checked:text-cyan-400 transition-colors duration-300"
+                    >
+                      React
+                    </p>
+                  </div>
+
+                  <div
+                    className="h-1 w-0 bg-cyan-500 rounded-full mx-auto group-hover:w-full peer-checked:w-full transition-all duration-300"
+                  ></div>
+
+                </div>
+              </label>
+            </div>
+
+            {/* PostgreSQL */}            
+            <div className="flex flex-col gap-6 justify-center items-center">
+              <label className="text-gray-400 cursor-pointer">
+                <input type="hover" className="hidden peer" />
+                <div
+                  className="group flex flex-col gap-4 w-32 h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-2xl p-4 shadow-xl border-2 border-transparent transition-all duration-300 ease-in-out hover:border-blue-500 hover:shadow-blue-500/20 peer-checked:border-blue-500 peer-checked:from-blue-900/50 peer-checked:to-gray-900 peer-checked:translate-y-[-0.5rem]"
+                >
+                  <div className="relative">
+                    <div
+                      className="w-12 h-12 mx-auto bg-blue-500/20 rounded-lg border-2 border-blue-500/40 group-hover:border-blue-400 group-hover:bg-blue-500/30 peer-checked:border-blue-400 peer-checked:bg-blue-500/30 transition-all duration-300"
+                    >
+                      <img src="/icons/postgresql.svg" alt="PostgreSQL" className="w-12 h-12 mb-2" />
+                      <div className="flex flex-col gap-1 p-2">
+                        
+                      </div>
+                    </div>
+
+                    <div
+                      className="absolute top-0 right-6 w-3 h-3 rounded-full bg-gray-600 group-hover:bg-red-400 group-hover:animate-pulse peer-checked:bg-indigo-400 peer-checked:animate-pulse transition-all duration-300"
+                    ></div>
+                  </div>
+
+                  <div className="text-center">
+                    <p
+                      className="font-medium text-sm group-hover:text-blue-400 peer-checked:text-blue-400 transition-colors duration-300"
+                    >
+                      PostgreSQL
+                    </p>
+                  </div>
+
+                  <div
+                    className="h-1 w-0 bg-blue-500 rounded-full mx-auto group-hover:w-full peer-checked:w-full transition-all duration-300"
+                  ></div>
+
+                </div>
+              </label>
+            </div>
+
+            {/* Firebase */}            
+            <div className="flex flex-col gap-6 justify-center items-center">
+              <label className="text-gray-400 cursor-pointer">
+                <input type="hover" className="hidden peer" />
+                <div
+                  className="group flex flex-col gap-4 w-32 h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-2xl p-4 shadow-xl border-2 border-transparent transition-all duration-300 ease-in-out hover:border-red-500 hover:shadow-red-500/20 peer-checked:border-red-500 peer-checked:from-red-900/50 peer-checked:to-gray-900 peer-checked:translate-y-[-0.5rem]"
+                >
+                  <div className="relative">
+                    <div
+                      className="w-12 h-12 mx-auto bg-red-500/20 rounded-lg border-2 border-red-500/40 group-hover:border-red-400 group-hover:bg-red-500/30 peer-checked:border-red-400 peer-checked:bg-red-500/30 transition-all duration-300"
+                    >
+                      <img src="/icons/firebase.svg" alt="Firebase" className="w-12 h-12 mb-2" />
+                      <div className="flex flex-col gap-1 p-2">
+                        
+                      </div>
+                    </div>
+
+                    <div
+                      className="absolute top-0 right-6 w-3 h-3 rounded-full bg-gray-600 group-hover:bg-red-400 group-hover:animate-pulse peer-checked:bg-indigo-400 peer-checked:animate-pulse transition-all duration-300"
+                    ></div>
+                  </div>
+
+                  <div className="text-center">
+                    <p
+                      className="font-medium text-sm group-hover:text-red-400 peer-checked:text-red-400 transition-colors duration-300"
+                    >
+                      Firebase
+                    </p>
+                  </div>
+
+                  <div
+                    className="h-1 w-0 bg-red-500 rounded-full mx-auto group-hover:w-full peer-checked:w-full transition-all duration-300"
+                  ></div>
+
+                </div>
+              </label>
+            </div>
+            {/* C++ */}    
+            <div className="flex flex-col gap-6 justify-center items-center">
+              <label className="text-gray-400 cursor-pointer">
+                <input type="hover" className="hidden peer" />
+                <div
+                  className="group flex flex-col gap-4 w-32 h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-2xl p-4 shadow-xl border-2 border-transparent transition-all duration-300 ease-in-out hover:border-blue-500 hover:shadow-blue-500/20 peer-checked:border-blue-500 peer-checked:from-blue-900/50 peer-checked:to-gray-900 peer-checked:translate-y-[-0.5rem]"
+                >
+                  <div className="relative">
+                    <div
+                      className="w-12 h-12 mx-auto bg-blue-500/20 rounded-lg border-2 border-blue-500/40 group-hover:border-blue-400 group-hover:bg-blue-500/30 peer-checked:border-blue-400 peer-checked:bg-blue-500/30 transition-all duration-300"
+                    >
+                      <img src="/icons/cpp.svg" alt="C++" className="w-12 h-12 mb-2" />
+                      <div className="flex flex-col gap-1 p-2">
+                        
+                      </div>
+                    </div>
+
+                    <div
+                      className="absolute top-0 right-6 w-3 h-3 rounded-full bg-gray-600 group-hover:bg-red-400 group-hover:animate-pulse peer-checked:bg-indigo-400 peer-checked:animate-pulse transition-all duration-300"
+                    ></div>
+                  </div>
+
+                  <div className="text-center">
+                    <p
+                      className="font-medium text-sm group-hover:text-blue-400 peer-checked:text-blue-400 transition-colors duration-300"
+                    >
+                      C++
+                    </p>
+                  </div>
+
+                  <div
+                    className="h-1 w-0 bg-blue-500 rounded-full mx-auto group-hover:w-full peer-checked:w-full transition-all duration-300"
+                  ></div>
+
+                </div>
+              </label>
+            </div>
+            {/* Javascript */}
+            <div className="flex flex-col gap-6 justify-center items-center">
+              <label className="text-gray-400 cursor-pointer">
+                <input type="hover" className="hidden peer" />
+                <div
+                  className="group flex flex-col gap-4 w-32 h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-2xl p-4 shadow-xl border-2 border-transparent transition-all duration-300 ease-in-out hover:border-yellow-500 hover:shadow-yellow-500/20 peer-checked:border-yellow-500 peer-checked:from-yellow-900/50 peer-checked:to-gray-900 peer-checked:translate-y-[-0.5rem]"
+                >
+                  <div className="relative">
+                    <div
+                      className="w-12 h-12 mx-auto bg-yellow-500/20 rounded-lg border-2 border-yellow-500/40 group-hover:border-yellow-400 group-hover:bg-yellow-500/30 peer-checked:border-yellow-400 peer-checked:bg-yellow-500/30 transition-all duration-300"
+                    >
+                      <img src="/icons/javascript.svg" alt="Javascript" className="w-12 h-12 mb-2" />
+                      <div className="flex flex-col gap-1 p-2">
+                        
+                      </div>
+                    </div>
+
+                    <div
+                      className="absolute top-0 right-6 w-3 h-3 rounded-full bg-gray-600 group-hover:bg-red-400 group-hover:animate-pulse peer-checked:bg-indigo-400 peer-checked:animate-pulse transition-all duration-300"
+                    ></div>
+                  </div>
+
+                  <div className="text-center">
+                    <p
+                      className="font-medium text-sm group-hover:text-yellow-400 peer-checked:text-yellow-400 transition-colors duration-300"
+                    >
+                      Javascript
+                    </p>
+                  </div>
+
+                  <div
+                    className="h-1 w-0 bg-yellow-500 rounded-full mx-auto group-hover:w-full peer-checked:w-full transition-all duration-300"
+                  ></div>
+
+                </div>
+              </label>
+            </div>
+
+          </div>
         </div>
       </div>
+
 
       {/* Proyectos */}
       <div className="max-w-screen-lg w-full bg-secundario rounded-2xl shadow-2xl p-8 border-2 border-primario">
         <h1 className="flex items-center justify-center text-3xl font-bold text-gray-800 items-center p-2">Projects</h1>
-        <div className="grid grid-cols-2 gap-4 p-8 ">
-          <div className="flex items-center justify-center font-bold text-primario p-4 bg-recuadros rounded-2xl shadow-xl p-8 text-center">
-            sad
-          </div>
-          <div className="flex items-center justify-center font-bold text-primario p-4 bg-recuadros rounded-2xl shadow-xl p-8 text-center">
-            asd
-          </div>
-        </div>
+        <div className="grid grid-cols-2 gap-4 p-8 ">          
+          {/* Bergamota Routes */}
+          <a
+            href="#"
+            className="group relative block max-w-screen-sm mx-auto h-64 sm:h-80 lg:h-96"
+          >
+            <span className="absolute inset-0 border-2 border-dashed border-black"></span>
 
+            <div
+              className="relative flex h-full w-60 transform items-end border-2 border-black bg-white transition-transform group-hover:scale-105"
+            >
+              <div
+                className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
+              >
+                <svg
+                  className="w-10"
+                  fill="#000000"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 512 512"
+                  xmlSpace="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M11.905,246.817H0.27v30.385h11.636v87.014H0.27v30.385h11.636v117.398h142.473V246.817H11.905z M73.56,453.134H43.175 v-30.051H73.56V453.134z M73.56,335.734H43.175v-30.051H73.56V335.734z M123.11,453.134H92.725v-30.051h30.385V453.134z M123.11,335.734H92.725v-30.051h30.385V335.734z"
+                      ></path>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M357.621,172.23l-30.385-22.362l-56.043-41.246V84l98.467-36.386L240.806,0v108.623l-56.043,41.246l-30.385,22.362 l-13.786,10.146l13.786,18.204l4.559,6.019l25.826-18.904V512h6.178h130.116h6.178V187.696l25.826,18.903l4.559-6.019 l13.786-18.204L357.621,172.23z M246.417,453.134h-30.385v-30.051h30.385V453.134z M246.417,335.734h-30.385v-30.051h30.385 V335.734z M246.417,218.335h-30.385v-30.051h30.385V218.335z M295.967,453.134h-30.385v-30.051h30.385V453.134z M295.967,335.734 h-30.385v-30.051h30.385V335.734z M295.967,218.335h-30.385v-30.051h30.385V218.335z"
+                      ></path>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M500.094,364.216v-87.014h11.635v-30.385h-11.637H357.621v265.182h142.473V394.601h11.636v-30.385H500.094z M419.274,453.134h-30.385v-30.051h30.385V453.134z M419.274,335.734h-30.385v-30.051h30.385V335.734z M468.824,453.134h-30.385 v-30.051h30.385V453.134z M468.824,335.734h-30.385v-30.051h30.385V335.734z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+
+                <h2 className="mt-4 text-xl font-medium sm:text-2xl font-bold text-primario">Bergamota Routes</h2>
+              </div>
+
+              <div
+                className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+              >
+                <h3 className="mt-4 text-xl font-medium sm:text-1xl font-bold text-primario">Bergamota Routes</h3>
+
+                <p className="mt-4 text-sm sm:text-base text-primario">
+                  Bergamota Routes is a school project I participated in, 
+                  which is a route optimization website that aims to improve delivery times for couriers from Amazon, Mercado Libre, and others.
+                </p>
+
+                <p className="mt-8 font-bold font-bold text-primario">Read more</p>
+              </div>
+            </div>
+          </a>
+          {/* Lupita´s Pasta */}
+          <a
+            href="#"
+            className="group relative block max-w-screen-sm mx-auto h-64 sm:h-80 lg:h-96"
+          >
+            <span className="absolute inset-0 border-2 border-dashed border-black"></span>
+
+            <div
+              className="relative flex h-full w-60 transform items-end border-2 border-black bg-white transition-transform group-hover:scale-105"
+            >
+              <div
+                className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
+              >
+                <svg
+                  className="w-10"
+                  fill="#000000"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 512 512"
+                  xmlSpace="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M11.905,246.817H0.27v30.385h11.636v87.014H0.27v30.385h11.636v117.398h142.473V246.817H11.905z M73.56,453.134H43.175 v-30.051H73.56V453.134z M73.56,335.734H43.175v-30.051H73.56V335.734z M123.11,453.134H92.725v-30.051h30.385V453.134z M123.11,335.734H92.725v-30.051h30.385V335.734z"
+                      ></path>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M357.621,172.23l-30.385-22.362l-56.043-41.246V84l98.467-36.386L240.806,0v108.623l-56.043,41.246l-30.385,22.362 l-13.786,10.146l13.786,18.204l4.559,6.019l25.826-18.904V512h6.178h130.116h6.178V187.696l25.826,18.903l4.559-6.019 l13.786-18.204L357.621,172.23z M246.417,453.134h-30.385v-30.051h30.385V453.134z M246.417,335.734h-30.385v-30.051h30.385 V335.734z M246.417,218.335h-30.385v-30.051h30.385V218.335z M295.967,453.134h-30.385v-30.051h30.385V453.134z M295.967,335.734 h-30.385v-30.051h30.385V335.734z M295.967,218.335h-30.385v-30.051h30.385V218.335z"
+                      ></path>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M500.094,364.216v-87.014h11.635v-30.385h-11.637H357.621v265.182h142.473V394.601h11.636v-30.385H500.094z M419.274,453.134h-30.385v-30.051h30.385V453.134z M419.274,335.734h-30.385v-30.051h30.385V335.734z M468.824,453.134h-30.385 v-30.051h30.385V453.134z M468.824,335.734h-30.385v-30.051h30.385V335.734z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+
+                <h2 className="mt-4 text-xl font-medium sm:text-2xl font-bold text-primario">Lupita´s Pasta</h2>
+              </div>
+
+              <div
+                className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+              >
+                <h3 className="mt-4 text-xl font-medium sm:text-1xl font-bold text-primario">Lupita´s Pasta</h3>
+
+                <p className="mt-4 text-sm sm:text-base text-primario">
+                  Lupita's Pasta is a website that showcases French pasta crafts and handmade creations. It also allows you to contact the person in charge to place an order if you're interested in any of the crafts.
+                </p>
+
+                <p className="mt-8 font-bold font-bold text-primario">Read more</p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
 
     </main>
