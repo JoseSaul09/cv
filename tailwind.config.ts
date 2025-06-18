@@ -15,6 +15,8 @@ export default {
         "recuadros": "#e4e4e4",
         "texto": "#c6a7e3",
         "header-color": "#1E1B24",
+        "gris": "#888787",
+        "rosa": "#ce83bf",
       },
     },
   },

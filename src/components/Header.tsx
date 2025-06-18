@@ -27,10 +27,10 @@ export function Header() {
           </li>
           <li>
             <Link 
-              href="#about"
+              href="#"
               className="text-texto hover:text-white transition-colors duration-200"
             >
-              About Me
+              Contact Me
             </Link>
           </li>
           <li>
