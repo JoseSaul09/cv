@@ -77,7 +77,7 @@ export default function Home() {
             </a>
           </div>
           <div className="social-button">
-            <a href="" className="inline-block">
+            <a href="https://www.linkedin.com/in/avina-quintero-jose-saul-586168346?" className="inline-block">
               <button className="relative w-12 h-12 rounded-full group">
                 <div
                   className="floater w-full h-full absolute top-0 left-0 bg-blue-500 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"
@@ -422,8 +422,8 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Proyectos ----------------------------------------------------------------------------------------------------------------------------------------*/}
 
-      {/* Proyectos */}
       <div className="max-w-screen-lg w-full bg-secundario rounded-2xl shadow-2xl p-8 border-2 border-primario">
         <h1 className="flex items-center justify-center text-3xl font-bold text-gray-800 items-center p-2">Projects</h1>
         <div className="grid grid-cols-2 gap-4 p-8 ">          

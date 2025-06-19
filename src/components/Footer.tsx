@@ -9,8 +9,7 @@ export function Footer() {
             &copy; 2025 Saul Aviña. All rights reserved.
           </p>
           <div className="flex space-x-4">
-            <Link href="#" className="hover:text-white transition-colors duration-200">Privacy Policy</Link>
-            <Link href="#" className="hover:text-white transition-colors duration-200">Contact Me</Link>
+            <Link href="/ContactMe" className="hover:text-white transition-colors duration-200">Contact Me</Link>
           </div>
         </div>
         <div className="flex justify-center mt-6">
@@ -41,7 +40,7 @@ export function Footer() {
                     </a>
                 </div>
                 <div className="social-button">
-                    <a href="" className="inline-block">
+                    <a href="https://www.linkedin.com/in/avina-quintero-jose-saul-586168346?" className="inline-block">
                     <button className="relative w-12 h-12 rounded-full group">
                         <div
                         className="floater w-full h-full absolute top-0 left-0 bg-blue-500 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"

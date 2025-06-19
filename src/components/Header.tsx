@@ -27,7 +27,7 @@ export function Header() {
           </li>
           <li>
             <Link 
-              href="#"
+              href="/ContactMe"
               className="text-texto hover:text-white transition-colors duration-200"
             >
               Contact Me
