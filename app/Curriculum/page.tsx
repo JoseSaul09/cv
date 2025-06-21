@@ -1,10 +1,13 @@
-'use client'; // si estás en Next.js App Router
+"use client";
 
-export default function PDFViewer() {
+export default function Curriculum() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-secundario">
-    <h1 className="text-3xl font-bold mb-6">Mi Currículum</h1>
-      
+    <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-secundario text-texto py-8">
+      <h1 className="text-3xl font-bold mb-6 py-8">Mi CV</h1>
+      <iframe
+        src="/CV_JoseSaulAviñaQuintero.pdf"
+        className="w-full h-[90vh] border-2 rounded-lg"
+      />
     </div>
   );
 }
